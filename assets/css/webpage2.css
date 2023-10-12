@@ -1,0 +1,209 @@
+h1,h2,h3,h4,p,body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.block {
+    width: 100%;
+    height: 700px;
+    background-color: brown;
+    color: white;
+    padding: 30px;
+}
+
+.block .div h1{
+    margin: 30px;
+    
+}
+
+.block .div1 p {
+    margin: 30px;
+}
+
+
+.block .div2 p {
+    margin: 30px;
+}
+
+
+.block .div2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.block .div3 button {
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 25px;
+    margin: 15px 30px;
+}
+
+
+
+
+
+
+.block1 {
+    width: 100%;
+    padding: 50px;
+}
+
+.block1 .div5 {
+    width: 650px;
+    height: auto;
+    float: left;
+}
+
+.block1 .div5  h1 {
+    font-size: 3rem;
+   margin: 20px;
+   padding: 10px;
+}
+
+.block1 .div5  p {
+    font-size: 1.4rem;
+   margin: 20px;
+   padding: 10px;
+}
+
+.block1 .div5 button {
+    color: white;
+    background-color: orangered;
+    margin: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+   
+}
+
+.wrapper1 {
+    width: 50%;
+    float: left;
+}
+
+.div4 {
+    float: right;
+    width: 40%;
+}
+
+.div6 {
+    width: 400px;
+    float: left;
+}
+
+.block2 {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    clear: both;
+    text-align: center;
+    
+}
+
+.block2 h1 {
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 2.7rem;
+}
+
+.block2 p {
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 1.2rem; 
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.div8{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.div8 div {
+    width: 20%;
+}
+.div8 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.block2 .div9 button {
+    color: white;
+    background-color: orangered;
+    margin: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 13px 35px;
+    border: none;
+    border-radius: 25px;
+}
+
+.div9 h1 {
+    padding-bottom: 30px;
+}
+
+.div10 input {
+    padding: 20px;
+    background-color: brown;
+    border: 1px solid white;
+    
+}
+
+.div10 button {
+    color: white;
+    background-color: orangered;
+    margin: 30px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 15px 55px;
+    border: none;
+    border-radius: 25px;
+}
+
+.div11 img {
+    width: 500px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.div12 {
+    width: 300px;
+    text-align: left;
+}
+
+.div12 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.div12 a {
+    text-decoration: none;
+    color: white;
+}
