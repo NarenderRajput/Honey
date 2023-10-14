@@ -207,3 +207,45 @@ img {
     text-decoration: none;
     color: white;
 }
+
+.div13 input {
+    padding: 15px;
+    margin: 8px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+
+.div13 button {
+    color: white;
+    background-color: orangered;
+    margin: 8px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 15px;
+}
+
+.menu2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    position: fixed;
+    height: 100%;
+}
+
+.menu2 li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    margin-top: 27px;
+}
+
+.div3 {
+    margin-left: 10%;
+}
