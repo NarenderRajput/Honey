@@ -5,6 +5,11 @@ h1,h2,h3,h4,p,body {
 
 * {
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("../images/body_bg.png");
 }
 
 img {
@@ -12,16 +17,10 @@ img {
 }
 
 .block {
-    width: 100%;
-    height: 700px;
-    background-color: brown;
-    color: white;
-    padding: 30px;
-}
-
-.block .div h1{
-    margin: 30px;
-    
+	width: 100%;
+	height: 100vh;
+	color: white;
+	padding: 30px;   
 }
 
 .block .div1 p {
@@ -46,17 +45,14 @@ img {
     padding: 15px 50px;
     border: none;
     border-radius: 25px;
-    margin: 15px 30px;
+    margin-top: 30px;
 }
-
-
-
-
-
 
 .block1 {
     width: 100%;
     padding: 50px;
+    background-color: white;
+    overflow: auto;
 }
 
 .block1 .div5 {
@@ -65,10 +61,24 @@ img {
     float: left;
 }
 
+.position {
+    position: relative;
+}
+
+.position img {
+    width: 50%;
+}
+
+.position h1 {
+    position: absolute;   
+    top: 60px;
+    left: 60px;
+}
 .block1 .div5  h1 {
     font-size: 3rem;
    margin: 20px;
    padding: 10px;
+   background-repeat: no-repeat;
 }
 
 .block1 .div5  p {
@@ -90,13 +100,23 @@ img {
 }
 
 .wrapper1 {
-    width: 50%;
-    float: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    transform: translateY(30%);
+}
+
+.wrapper1 .div3 h1 {
+    font-size: 60px;
 }
 
 .div4 {
     float: right;
     width: 40%;
+}
+
+.div4 img {
+    width: 400px;
 }
 
 .div6 {
@@ -107,24 +127,23 @@ img {
 .block2 {
     width: 100%;
     height: auto;
-    background-color: brown;
     clear: both;
     text-align: center;
+    padding: 50px;
     
 }
 
 .block2 h1 {
     color: white;
-    margin: 20px;
-    padding-top: 20px;
     font-size: 2.7rem;
+    padding-top: 20px;
 }
 
-.block2 p {
+.div7 p {
     color: white;
-    margin: 20px;
-    padding-top: 20px;
     font-size: 1.2rem; 
+    padding-top: 10px;
+    padding-bottom: 70px;
 }
 
 .gap-10 {
@@ -151,6 +170,7 @@ img {
 .flex {
     display: flex;
     justify-content: center;
+    padding-top: 70px;
     
 }
 
@@ -170,9 +190,13 @@ img {
 }
 
 .div10 input {
-    padding: 20px;
-    background-color: brown;
+    width: 35%;
+    padding: 30px;
     border: 1px solid white;
+    margin-right: 10px;
+    background: none;
+    color: white;
+    font-size: 18px;
     
 }
 
@@ -196,16 +220,32 @@ img {
 .div12 {
     width: 300px;
     text-align: left;
+    padding-right: 40px;
 }
 
 .div12 p {
     margin-top: 0px;
     margin-bottom: 0px;
+    color: #ffffff;
+    padding-bottom: 20px;
+
 }
 
 .div12 a {
     text-decoration: none;
     color: white;
+}
+
+.div12 i {
+    border: 1px solid #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: black;
+}
+
+.block2 p {
+    color: #ffffff;
 }
 
 .div13 input {
@@ -233,19 +273,49 @@ img {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 25%;
-    position: fixed;
-    height: 100%;
 }
 
 .menu2 li a {
     display: block;
-    padding: 8px;
     text-decoration: none;
     color: white;
     margin-top: 27px;
 }
 
+.menu2 li a:hover {
+    color: orange;
+}
+
 .div3 {
     margin-left: 10%;
+}
+
+.side-menu {
+    float: left;
+    font-size: 12px;
+}
+.side-menu h1 {
+    margin: 0;
+}
+
+.mb-20px {
+    margin-bottom: 20px;
+}
+
+.side-menu h1 span {
+    display: block;
+}
+
+.menu2 li {
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+}
+
+.top-nav span {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.top-nav {
+    padding: 10px 70px;
 }
