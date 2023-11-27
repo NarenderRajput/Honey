@@ -20,25 +20,25 @@ img {
 	width: 100%;
 	height: 100vh;
 	color: white;
-	padding: 30px;   
+	padding: 30px;  
+    font-size: 12px; 
 }
 
-.block .div1 p {
-    margin: 30px;
+.wrapper1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    transform: translateY(30%);
+    flex-wrap: wrap;
 }
 
 
-.block .div2 p {
-    margin: 30px;
+
+.wrapper1 .div3 h1 {
+    font-size: 4.5em;
 }
 
-
-.block .div2 a {
-    text-decoration: none;
-    color: white;
-}
-
-.block .div3 button {
+.div3 button {
     background-color: orangered;
     color: white;
     font-size: 20px;
@@ -48,15 +48,25 @@ img {
     margin-top: 30px;
 }
 
+.div4 {
+    float: right;
+    width: 40%;
+}
+
+.div4 img {
+    width: 400px;
+}
+
 .block1 {
     width: 100%;
     padding: 50px;
     background-color: white;
     overflow: auto;
+    font-size: 12px;
 }
 
 .block1 .div5 {
-    width: 650px;
+    width: 50%;
     height: auto;
     float: left;
 }
@@ -75,14 +85,14 @@ img {
     left: 60px;
 }
 .block1 .div5  h1 {
-    font-size: 3rem;
+    font-size: 3em;
    margin: 20px;
    padding: 10px;
    background-repeat: no-repeat;
 }
 
 .block1 .div5  p {
-    font-size: 1.4rem;
+    font-size: 1.4em;
    margin: 20px;
    padding: 10px;
 }
@@ -99,28 +109,10 @@ img {
    
 }
 
-.wrapper1 {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-    transform: translateY(30%);
-}
 
-.wrapper1 .div3 h1 {
-    font-size: 60px;
-}
-
-.div4 {
-    float: right;
-    width: 40%;
-}
-
-.div4 img {
-    width: 400px;
-}
 
 .div6 {
-    width: 400px;
+    width: 50%;
     float: left;
 }
 
@@ -129,8 +121,7 @@ img {
     height: auto;
     clear: both;
     text-align: center;
-    padding: 50px;
-    
+    padding: 50px;    
 }
 
 .block2 h1 {
@@ -157,12 +148,13 @@ img {
     flex-wrap: wrap;
 }
 
-.div8 div {
+.div8>div {
     width: 20%;
 }
+
 .div8 img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     background-color: white;
 }
@@ -190,10 +182,11 @@ img {
 }
 
 .div10 input {
-    width: 35%;
+    width: 37%;
     padding: 30px;
     border: 1px solid white;
     margin-right: 10px;
+    margin-bottom: 20px;
     background: none;
     color: white;
     font-size: 18px;
@@ -239,6 +232,7 @@ img {
 .div12 i {
     border: 1px solid #ffffff;
     padding: 5px;
+    margin-right: 5px;
     border-radius: 50%;
     background-color: #ffffff;
     color: black;
@@ -260,7 +254,7 @@ img {
 
 .div13 button {
     color: white;
-    background-color: orangered;
+    background-color: rgb(236, 89, 35);
     margin: 8px;
     margin-bottom: 50px;
     font-size: 20px;
@@ -318,4 +312,119 @@ img {
 
 .top-nav {
     padding: 10px 70px;
+}
+
+@media only screen and (max-width:992px) {
+
+    .block {
+        height: 70vh;
+        padding: 20px;
+    }
+
+    .div4 {
+        width: 50%;
+    }
+    
+    .div8 {
+        width: 100%;
+        gap: 60px;
+    }
+    .div8 > div {
+        width: 40%;
+
+    }
+
+    .div10 input {
+        width: 40%
+    }
+
+    .div11 {
+        width: 100%;
+        
+    }
+
+    .div11 img {
+        width: 60%;
+    }
+
+    .div12 {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    .block {
+        width: 100%;
+        height: 50vh;
+        padding: 20px;
+    }
+
+    .div5 h1 {
+        font-size: 10em;
+    }
+    
+    .div8 {
+        width: 100%;
+        
+    }
+    .div8 > div {
+        width: 40%;
+        padding: 0px;
+
+    }
+
+    .div10 input {
+        width: 40%
+    }
+
+    .div11 {
+        width: 100%;
+    }
+
+    .div11 img {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    
+    .block .menu2 {
+        display: none;
+    }
+
+    .wrapper1 {
+
+    }
+
+    .block1 .div3 {
+        width: 100%;
+    }
+
+    .block1 .div4 {
+        width: 100%;
+    }
+
+    .block1 .div5 {
+        float: none;
+        width: 100%;
+    }
+
+    .block1 .div6 {
+        float: none;
+        width: 100%;
+    }
+
+    .div10 input {
+        width: 100%;
+    }
+
+    .div11 {
+        width: 100%;
+    }
+
+    .div12 {
+        width: 45%;
+    }
+   
 }
