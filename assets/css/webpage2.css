@@ -206,7 +206,7 @@ img {
 }
 
 .div11 img {
-    width: 500px;
+    width: 45%;
     height: auto;
     padding-bottom: 50px;
 }
@@ -261,6 +261,7 @@ img {
 
 
 .div13 input {
+    width: 100%;
     padding: 15px;
     margin: 8px;
     font-size: 18px;
@@ -271,14 +272,16 @@ img {
 }
 
 .div13 button {
+    width: 100%;
     color: white;
     background-color: rgb(236, 89, 35);
     margin: 8px;
     margin-bottom: 50px;
     font-size: 20px;
-    padding: 15px 80px;
+    padding: 15px;
     border: none;
     border-radius: 15px;
+    text-align: center;
 }
 
 .menu2 {
@@ -387,16 +390,17 @@ img {
 @media only screen and (max-width:992px) {
 
     .block {
-        height: 100%;
+        height: 65%;
         padding: 20px;
     }
 
     .div3 {
-        width: 50%;
+        width: 55%;
+        margin-left: 0;
     }
 
     .div4 {
-        width: 40%;
+        width: 32%;
 
     }
     
@@ -426,16 +430,24 @@ img {
 
     .block {
         width: 100%;
-        height: 50vh;
         padding: 20px;
     }
 
     .div3 {
         width: 45%;
+
+    }
+
+    .dv3 h1 {
+        font-size: 2em;
+    }
+
+    .div3 p {
+        font-size: 14px;
     }
 
     .div4 {
-        width: 40%;
+        width: 32%;
 
     }
 
@@ -450,8 +462,8 @@ img {
        background-repeat: no-repeat;
     }
     
-    .div8 {
-        width: 100%;
+    .div8 > div{
+        width: 45%;
         
     }
 
@@ -528,23 +540,34 @@ img {
         width: 100%;
     }
 
+    .div8 > div {
+        width: 40%;
+    }
+
     .div10 input {
         width: 100%;
     }
 
     .block2 {
     padding: 25px;
+    }
 
     .div11 {
         width: 100%;
     }
 
+    .flex {
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
     .div12 {
-        width: 45%;
+        width: 49%;
         padding-right: 0;
     }
     
     .div13 {
-        width: 45%;
+        width: 50%;
     }
 }
