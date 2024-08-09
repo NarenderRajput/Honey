@@ -10,7 +10,7 @@ This is HTML, CSS and Web Designing.
 2. Font Awesome
 
 # Live Url
-https://narenderrajput.github.io/flipkart_clone/
+https://narenderrajput.github.io/Honey/
 
 [View Demo on youtube](https://youtu.be/0upIxqAJieU)
 
